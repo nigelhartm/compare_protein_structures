@@ -162,8 +162,8 @@ exportModel <- function (m, l, filename) {
 #
 main <- function() {
     # Initialize Model Data
-    file1 = getModel("struct/homework_02/1zta_ca_1.xyz")
-    file2 = getModel("struct/homework_02/1zta_ca_2.xyz")
+    file1 = getModel("1zta_ca_1.xyz")
+    file2 = getModel("1zta_ca_2.xyz")
     m1 = file1$model
     m2 = file2$model
     l1 = file1$l
